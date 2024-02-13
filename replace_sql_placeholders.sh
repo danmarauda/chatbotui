@@ -3,7 +3,7 @@
 # Path to the original SQL file
 SQL_FILE="supabase/migrations/20240108234540_setup.sql"
 
-# Temporary file for storing the modified SQL
+# Temporary file for storing the modified SQL file
 TEMP_FILE="temp.sql"
 
 # Environment variables (these should be set in your Railway environment or .env file)
