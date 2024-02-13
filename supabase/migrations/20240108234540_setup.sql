@@ -51,7 +51,7 @@ SECURITY DEFINER
 AS $$
 DECLARE
   project_url TEXT := 'PROJECT_URL_PLACEHOLDER';
-  service_role_key TEXT := 'SERVICE_ROLE_KEY_PLACEHOLDER';
+  service_role_key TEXT := 'SERVICE_ROLE_KEY_PLACEHOLDER'; 
   url TEXT := project_url || '/storage/v1/object/' || bucket || '/' || object;
 BEGIN
   SELECT
