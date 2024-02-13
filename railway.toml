@@ -1,0 +1,2 @@
+[build]
+buildCommand = "bash replace_placeholders.sh"
