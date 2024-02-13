@@ -1,2 +1,2 @@
 [build]
-buildCommand = "bash replace_placeholders.sh"
+buildCommand = "bash replace_sql_placeholders.sh"
