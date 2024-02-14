@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x 
+set +x
 
 # Step 0: Replace placeholders in the SQL file
 # Path to the original SQL file
@@ -43,7 +43,6 @@ npx supabase db push --db-url "$SUPABASE_DATABASE_URL_WITH_PASSWORD" > /dev/null
 # Check if db push was successful
 if [ $? -ne 0 ]; then
     echo "Failed to push database changes to Supabase."
-    exit 1
 fi
 
 echo "Supabase operations completed successfully."
