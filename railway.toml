@@ -1,2 +1,3 @@
 [build]
-buildCommand = "bash replace_sql_placeholders.sh && npm run start"
+builder = "NIXPACKS"
+buildCommand = "bash replace_sql_placeholders.sh && npm run build"
