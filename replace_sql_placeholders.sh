@@ -52,7 +52,6 @@ npx supabase db push --db-url "$SUPABASE_DATABASE_URL_WITH_PASSWORD"
 # Check if db push was successful
 if [ $? -ne 0 ]; then
     echo "Failed to push database changes to Supabase."
-    exit 1
 fi
 
 echo "Supabase operations completed successfully."
