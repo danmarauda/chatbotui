@@ -15,7 +15,7 @@ extra_search_path = ["public", "extensions"]
 max_rows = 1000
 
 [db]
-# Port to use for the local database URL.
+# Port to use for the local database URL
 port = 54322
 # Port used by db diff command to initialise the shadow database.
 shadow_port = 54320
